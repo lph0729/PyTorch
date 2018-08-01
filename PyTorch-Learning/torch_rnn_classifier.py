@@ -8,8 +8,7 @@
 
 """
 from torch.autograd import Variable
-from torchvision import datasets
-from torchvision import transforms
+from torchvision import datasets,transforms
 from torch.utils import data
 from torch.optim import Adam
 import torch.nn as nn
